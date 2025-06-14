@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* إعدادات أساسية */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* الألوان */
+:root {
+  --main-color: #d4af37; /* دهبي */
+  --dark-blue: #1a1a2e;
+  --purple: #5f27cd;
+  --sky: #00a8ff;
+}
+
+/* الهيدر */
+header {
+  background-color: var(--dark-blue);
+  padding: 20px;
+  text-align: center;
+  color: var(--main-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* الروابط */
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--sky);
+}
+
+/* أقسام */
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+/* عناوين */
+h1, h2, h3 {
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+
+/* أزرار */
+button {
+  background-color: var(--main-color);
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--purple);
+  color: #fff;
+}
+
+/* الفوتر */
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
